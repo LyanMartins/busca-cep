@@ -1,0 +1,24 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Detalhes do CEP</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding *ngIf="ceps" >
+    <ion-list >
+        <ion-list-header >
+          CEP
+        </ion-list-header>
+        <ion-item ><strong>Logradouro:</strong> {{ceps.logradouro}}</ion-item>
+        <ion-item ><strong>Complemento:</strong> {{ceps.complemento}}</ion-item>
+        <ion-item ><strong>Bairro:</strong> {{ceps.bairro}}</ion-item>
+        <ion-item ><strong>Localidade:</strong> {{ceps.localidade}}</ion-item>
+        <ion-item ><strong>UF:</strong> {{ceps.uf}}</ion-item>
+        <ion-item ><strong>Ibge:</strong> {{ceps.ibge}}</ion-item>
+        <ion-item ><strong>gia:</strong> {{ceps.gia}}</ion-item>
+      </ion-list>
+</ion-content>

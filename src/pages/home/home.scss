@@ -1,0 +1,27 @@
+page-home {
+.corpo{
+    background-color: rgb(51,51,51);
+    color: white;
+}
+.cabe{
+    background-color: rgb(51,51,51);
+}
+.formulario{
+    margin: 10%;
+}
+.input{
+    margin-bottom: 10%;
+}
+.label{
+    font-size: 36px;
+    text-align: center;
+    margin: 0px;
+    left: 100%;
+}
+.divLabel{
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: 100px;
+}
+}

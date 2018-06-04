@@ -1,0 +1,13 @@
+<ion-content padding class="corpo">
+  <form (ngSubmit)="abreMostraCep()" class="formulario" >
+    <div class="divLabel"> 
+      <ion-label fixed class="label" >CEP</ion-label>
+    </div>
+      <ion-input id="idCep" type="text" value="" [(ngModel)]="input.cep" name="id" class="input"  ></ion-input >
+      <button ion-button icon-left color="light" block  type="submit" >
+        <ion-icon name="search"></ion-icon>
+        Buscar     
+      </button>
+ 
+  </form>
+</ion-content>
